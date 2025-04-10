@@ -1,5 +1,91 @@
-*{
- margin: 0px;
-padding: 0px;
+@font-face {
+    font-family: "PP Mori Semibold";
+    src: url(/fonts/PPMORI-SEMIBOLD.OTF);
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "PP Mori Semibold";
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+body {
+    background-color: #eadfd8;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul {
+    display: inline;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 60px auto;
+    max-width: 1000px;
+}
+
+li {
+    display: block;
+}
+
+nav a {
+    color: #191919;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+nav a:hover{
+    color: #a80a44;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer{
+    background-color: #191919;
+    color: #eadfd8;
+    padding: 20px 40px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-size: 0.8em;
+}
+.icono {
+    width: 25px;
+    margin: 0px 5px;
+}
+
+#bckg-flores {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+    
+    img {
+        min-width: 500px;
+        width: 40vw;
+    }
+}

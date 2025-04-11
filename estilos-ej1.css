@@ -7,7 +7,7 @@
     margin: 0px;
     padding: 0px;
     font-family: "PP Mori Semibold";
-    border: 0px solid red;
+    border: 1px solid red;
 }
 
 body {
@@ -90,3 +90,4 @@ footer p {
         padding-top:80px
     }
 }
+

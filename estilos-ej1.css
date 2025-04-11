@@ -12,9 +12,9 @@
 
 body {
     background-color: #eadfd8;
-    min-height: 100vh;
+    min-height: 100vh; /* cuál es la diferencia entre min-height y height en este caso? */
     display: flex;
-    flex-flow: column;
+    flex-flow: column; /* nosotros no vimos esta propiedad */
 }
 
 main {
@@ -25,7 +25,7 @@ main {
 }
 
 nav ul {
-    display: inline;
+    display: inline; /* estp es cosa del pasado */
     font-size: 1em;
     display: flex;
     flex-direction: row;
@@ -63,7 +63,7 @@ footer{
     color: #eadfd8;
     padding: 20px 40px;
     display: flex;
-    flex-flow: row;
+    flex-flow: row; /* no dimos esta propiedad */
     justify-content: space-between;
     align-items: center;
 }
@@ -78,7 +78,7 @@ footer p {
 
 #bckg-flores {
     width: 100%;
-    position: absolute;
+    position: absolute; /* nosotros no vimos esta propiedad, en cambbio hay otras que funcionan mejor como background-image */
     display: flex;
     justify-content: center;
     z-index: -1;

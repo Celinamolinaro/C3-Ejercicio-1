@@ -2,12 +2,16 @@
     font-family: "PP Mori Semibold";
     src: url(/fonts/PPMORI-SEMIBOLD.OTF);
 }
+@font-face {
+    font-family: "PP Mori Extralight";
+    src: url(fonts/PPMORI-EXTRALIGHT.OTF);
+}
 
 *{
     margin: 0px;
     padding: 0px;
     font-family: "PP Mori Semibold";
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 body {
@@ -91,3 +95,32 @@ footer p {
     }
 }
 
+#descripcion {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    align-content: center;
+    
+    div p {
+        width: 550px;
+        font-family: "PP Mori Extralight";
+        font-size: 1.1em;
+        margin-top: 10px;
+        line-height: 1.4em;
+    }
+}
+
+#titulo-sobremi {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 20px;
+
+    h1 {
+        text-align: left;
+        font-size: 4.5em;
+    }
+}
+
+#flor-lila-y-amarillo {
+    width: 70px;
+}

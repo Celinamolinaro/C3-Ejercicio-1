@@ -100,9 +100,10 @@ footer p {
     justify-content: center;
     column-gap: 30px;
     align-content: center;
+    flex-wrap: wrap;
     
     div p {
-        width: 550px;
+        max-width: 550px;
         font-family: "PP Mori Extralight";
         font-size: 1.1em;
         margin-top: 10px;
@@ -122,5 +123,18 @@ footer p {
 }
 
 #flor-lila-y-amarillo {
-    width: 70px;
+    width: 55px;
+    margin-bottom: 12px;
+    animation: girar 20s linear infinite;
+    transform-origin: center;
+}
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
 }

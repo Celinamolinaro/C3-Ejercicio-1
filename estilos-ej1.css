@@ -6,12 +6,16 @@
     font-family: "PP Mori Extralight";
     src: url(fonts/PPMORI-EXTRALIGHT.OTF);
 }
+@font-face {
+    font-family: "PP Mori Extralight-Italic";
+    src: url(fonts/PPMORI-EXTRALIGHTITALIC.OTF);
+}
 
 *{
     margin: 0px;
     padding: 0px;
     font-family: "PP Mori Semibold";
-    border: 0px solid red;
+    border: 1px solid red;
 }
 
 body {
@@ -163,3 +167,29 @@ footer p {
   }
   
 }
+
+.tarjeta-sobremi {
+    border: 2px solid #191919;
+
+    h2 {
+        background: #191919;
+        color: #eadfd8;
+        padding: 0px 0px;
+    }
+
+    li {
+        font-family: "PP Mori Extralight";
+        list-style-type:
+    } 
+}
+
+h3 {
+    font-family: "PP Mori Semibold";
+}
+
+.experiencia-trabajo {
+    font-family: "PP Mori Extralight-Italic";
+}
+
+
+

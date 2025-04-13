@@ -2,12 +2,20 @@
     font-family: "PP Mori Semibold";
     src: url(/fonts/PPMORI-SEMIBOLD.OTF);
 }
+@font-face {
+    font-family: "PP Mori Extralight";
+    src: url(fonts/PPMORI-EXTRALIGHT.OTF);
+}
+@font-face {
+font-family: "PP Mori Extralight-Italic";
+src: url(fonts/PPMORI-EXTRALIGHTITALIC.OTF);
+}
 
 *{
     margin: 0px;
     padding: 0px;
     font-family: "PP Mori Semibold";
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 body {
@@ -50,7 +58,7 @@ nav a:hover{
 }
 
 h1 {
-    font-family: "PP Mori Semibold";
+    font-family: "PP Mori Semibold", sans-serif;
     font-size: 5em;
     text-align: center;
 }

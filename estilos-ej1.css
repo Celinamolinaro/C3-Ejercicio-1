@@ -1,6 +1,6 @@
 @font-face {
     font-family: "PP-Mori-Semibold";
-    src: url(/fonts/PPMORI-SEMIBOLD.OTF);
+    src: url(fonts/PPMORI-SEMIBOLD.OTF);
 }
 
 @font-face {
@@ -35,7 +35,6 @@ main {
 }
 
 nav ul {
-    display: inline;
     font-size: 1em;
     display: flex;
     flex-direction: row;
@@ -173,6 +172,8 @@ footer p {
 
 .tarjeta-sobremi {
     border: 2px solid #191919;
+    max-width: 800px;
+    border-radius: 10px;
 
     h2 {
         background: #191919;

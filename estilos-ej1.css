@@ -1,22 +1,23 @@
 @font-face {
-    font-family: "PP Mori Extralight", Helvetica;
-    src: url(fonts/PPMORI-EXTRALIGHT.OTF);
-}
-@font-face {
-font-family: "PP Mori Extralight-Italic", Helvetica;
-src: url(fonts/PPMORI-EXTRALIGHTITALIC.OTF);
+    font-family: "PP-Mori-Semibold";
+    src: url(/fonts/PPMORI-SEMIBOLD.OTF);
 }
 
 @font-face {
-    font-family: "PP Mori Semibold", Helvetica;
-    src: url(/fonts/PPMORI-SEMIBOLD.OTF);
+    font-family: "PP-Mori-Extralight";
+    src: url(fonts/PPMORI-EXTRALIGHT.OTF);
+}
+
+@font-face {
+font-family: "PP-Mori-Extralight-Italic";
+src: url(fonts/PPMORI-EXTRALIGHTITALIC.OTF);
 }
 
 *{
     margin: 0px;
     padding: 0px;
-    font-family: "PP Mori Semibold";
-    border: 0px solid red;
+    font-family: "PP-Mori-Semibold";
+    border: 1px solid red;
 }
 
 body {
@@ -59,7 +60,7 @@ nav a:hover{
 }
 
 h1 {
-    font-family: "PP Mori Semibold", sans-serif;
+    font-family: "PP-Mori-Semibold";
     font-size: 5em;
     text-align: center;
 }
@@ -125,7 +126,7 @@ footer p {
     
     div p {
         max-width: 550px;
-        font-family: "PP Mori Extralight";
+        font-family: "PP-Mori-Extralight";
         font-size: 1.1em;
         margin-top: 10px;
         line-height: 1.4em;
@@ -180,14 +181,14 @@ footer p {
     }
 
     li {
-        font-family: "PP Mori Extralight";
+        font-family: "PP-Mori-Extralight";
     } 
 }
 
 h3 {
-    font-family: "PP Mori Semibold";
+    font-family: "PP-Mori-Semibold";
 }
 
 .experiencia-trabajo {
-    font-family: "PP Mori Extralight-Italic";
+    font-family: "PP-Mori-Extralight-Italic";
 }

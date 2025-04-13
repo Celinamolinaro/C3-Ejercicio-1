@@ -1,14 +1,15 @@
 @font-face {
-    font-family: "PP Mori Semibold";
-    src: url(/fonts/PPMORI-SEMIBOLD.OTF);
-}
-@font-face {
-    font-family: "PP Mori Extralight";
+    font-family: "PP Mori Extralight", Helvetica;
     src: url(fonts/PPMORI-EXTRALIGHT.OTF);
 }
 @font-face {
 font-family: "PP Mori Extralight-Italic";
 src: url(fonts/PPMORI-EXTRALIGHTITALIC.OTF);
+}
+
+@font-face {
+    font-family: "PP Mori Semibold";
+    src: url(/fonts/PPMORI-SEMIBOLD.OTF);
 }
 
 *{
@@ -190,6 +191,3 @@ h3 {
 .experiencia-trabajo {
     font-family: "PP Mori Extralight-Italic";
 }
-
-
-

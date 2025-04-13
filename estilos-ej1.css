@@ -17,11 +17,11 @@
     margin: 0px;
     padding: 0px;
     font-family: "PP-Mori-Semibold";
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 body {
-    background-color: #eae0d8;
+    background-color: #eadfd8;
     min-height: 100vh;
     display: flex;
     flex-flow: column;
@@ -114,6 +114,7 @@ footer p {
     video {
         width: 100%;
         height: 100%;
+
     }
 }
 

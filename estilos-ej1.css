@@ -1,16 +1,16 @@
 @font-face {
     font-family: "PP-Mori-Semibold";
-    src: url(/fonts/PPMORI-SEMIBOLD.OTF);
+    src: url(fonts/PPMORI-SEMIBOLD.OTF) format("opentype");
 }
 
 @font-face {
     font-family: "PP-Mori-Extralight";
-    src: url(/fonts/PPMORI-EXTRALIGHT.OTF);
+    src: url(fonts/PPMORI-EXTRALIGHT.OTF) format("opentype");
 }
 
 @font-face {
     font-family: "PP-Mori-Extralight-Italic";
-    src: url(/fonts/PPMORI-EXTRALIGHTITALIC.OTF);
+    src: url(fonts/PPMORI-EXTRALIGHTITALIC.OTF) format("opentype");
 }
 
 *{

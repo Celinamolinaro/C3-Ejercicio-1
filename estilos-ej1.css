@@ -17,7 +17,7 @@
     margin: 0px;
     padding: 0px;
     font-family: "PP-Mori-Semibold";
-    border: 1px solid red;
+    border: 0px solid red;
 }
 
 body {
@@ -123,6 +123,7 @@ footer p {
     column-gap: 30px;
     align-content: center;
     flex-wrap: wrap;
+    margin-top: 40px;
     
     div p {
         max-width: 550px;
@@ -172,14 +173,15 @@ footer p {
 }
 
 #contenedor-tarjetas-sm {
-    border: 3px solid rgb(51, 0, 255);
+    border: 0px solid rgb(51, 0, 255);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 25px;
-    row-gap: 25px;
-    margin: 30px 0px;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 55px;
+    margin-bottom: 70px;
 }
 
 .tarjetas-sm{
@@ -193,20 +195,42 @@ footer p {
         font-size: 1.2em;
         border-top-right-radius: 5px;
         border-top-left-radius: 5px;
-        padding: 7px 0px;
+        padding: 10px 0px;
+    }
+
+    h3 {
+        margin-top: 5px;
+        font-size: 1.1em;
+    }
+
+    ul {
+        margin-top: 20px;
     }
 
     li {
         font-family: "PP-Mori-Extralight";
+        font-size: 0.9em;
+        margin-top: 6px;
     } 
 
     .cuerpo-tarjeta {
-        padding: 10px;
-    }
+        padding: 25px ;
+    }    
 }
 
 #contenedor-tarjetas-vertical {
     display: flex;
     flex-direction: column;
     row-gap: 25px;
+}
+
+#caja-iconos-skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.iconos-skills {
+    width: 33px;
 }

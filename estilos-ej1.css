@@ -209,15 +209,10 @@ footer p {
     } 
 
     .cuerpo-tarjeta {
-        padding: 30px 25px ;
-
-        h3 {
-            margin-top: 20px;
-        }
-
-        h3:first-child {
-            margin-top: 0px;
-        }
+        border: 3px solid orchid;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
 
     }    
 }

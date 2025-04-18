@@ -17,7 +17,7 @@
     margin: 0px;
     padding: 0px;
     font-family: "PP-Mori-Semibold";
-    border: 0px solid red;
+    border: 1px solid red;
 }
 
 body {
@@ -110,11 +110,6 @@ footer p {
     display: flex;
     justify-content: center;
     z-index: -1;
-
-    video {
-        width: 100%;
-        height: 110%;
-    }
 }
 
 #descripcion {
@@ -214,7 +209,16 @@ footer p {
     } 
 
     .cuerpo-tarjeta {
-        padding: 25px ;
+        padding: 30px 25px ;
+
+        h3 {
+            margin-top: 20px;
+        }
+
+        h3:first-child {
+            margin-top: 0px;
+        }
+
     }    
 }
 
@@ -225,6 +229,7 @@ footer p {
 }
 
 #caja-iconos-skills {
+    margin-top: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -233,4 +238,9 @@ footer p {
 }
 .iconos-skills {
     width: 33px;
+}
+
+.h4-workplace {
+    font-family: 'PP-Mori-Extralight-Italic';
+    margin-top: 8px;
 }

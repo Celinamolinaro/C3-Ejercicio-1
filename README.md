@@ -1,3 +1,6 @@
+Link a repositorio: 
+https://github.com/Celinamolinaro/C3-Ejercicio-1/tree/Tp1-Entrega
+
 En este trabajo entrego landing page + página CV (Sobre mi) en las que trabajé los temas de html, css y flexbox, agregando un poquito de animación. 
 
 Para la landing page decidí agregar un video de fondo (realizado en After Effects y exportado como webm para que no pesara tanto) ya que quería darle un poco de dinamismo. Agregué una animación al texto para que sea una especie de "invitación" a explorar la página. 
@@ -10,4 +13,3 @@ Notas:
 -En código fui ajustando cosas que no se ven en el boceto inicial pero en general lo seguí con bastante fidelidad
 -Me gustaría continuar la landing page hacia abajo poniendo todos los datos (sobre mi, proyectos, etc) en una sola pág, tal vez más adelante cuando continuemos con portfolio
 -Por algún motivo que no pude descubrir no se me ponen los items/puntitos en los < li > :(
-

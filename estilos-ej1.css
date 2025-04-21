@@ -17,7 +17,7 @@
     margin: 0px;
     padding: 0px;
     font-family: "PP-Mori-Semibold";
-    border: 0px solid red;
+    border: 0px solid red; /* Esto es para poder visualizar las cajas contenedoras de cada elemento */
 }
 
 body {
@@ -215,7 +215,6 @@ footer{
         flex-direction: column;
         row-gap: 20px;
         margin: 20px;
-
     }    
 }
 
@@ -241,9 +240,7 @@ footer{
 }
 
 .experiencia {
-
     ul {
         margin-top: 15px;
     }
 }
-

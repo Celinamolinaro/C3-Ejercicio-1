@@ -11,27 +11,39 @@
 <body>
     <header>
         <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="sobremi.html">SOBRE MI</a></li>
-                    <li><a href="">PROYECTOS</a></li>
-                    <li><a href="">CONTACTO</a></li>
-                </ul> 
-            </nav>
+            <a href="index.html">HOME</a>
+            <a href="sobremi.html">SOBRE MI</a>
+            <a href="proyectos.html">PROYECTOS</a>
+            <a href="#">CONTACTO</a>
+        </nav>
     </header>
 
     <main>
-    
-        <video autoplay loop muted playsinline id="bckg-flores">
-            <source src="img/Flores-landingpage.webm" type="video/webm">
-            <source src="img/Flores-y-fondo-landingpage.mp4"  type="video/mp4"> 
-        </video>
 
-        <div id="titulo-landing">
-            <h2>bienvenido a</h2>
-            <h1>mi espacio<br>creativo</h1>
-        </div>
+        <section class="fullscreen">
+            <div id="titulo-landing">
+                <h2>bienvenido a</h2>
+                <h1>mi espacio<br>creativo</h1>
+            </div>
+            <video autoplay loop muted playsinline id="bckg-flores">
+                <source src="img/fondo-flores4.webm" type="video/webm">
+                <source src="img/flores-y-fondo-landingpage.mp4"  type="video/mp4"> 
+            </video>
+        </section>
         
+        <section class="seccion-video">
+            <h2 class="subtitulo-proyectos">
+                <span class="subtexto-extralight">Detrás de cada proyecto, hay una </span>
+                <span class="subtexto-extralight">búsqueda: de emoción, de identidad. </span>
+                <span class="resaltado-proyectos degradado-animado">Acá, algunas de las respuestas </span>
+                <span class="resaltado-proyectos degradado-animado">que encontré diseñando.</span>
+            </h2>
+            <div class="contenedor-video">
+                <img src="img/prueba-placeholder.jpg" alt="Proyectos" class="img-proyectos" />
+            </div>
+            <button class="btn-ver-todo">Ver todo</button>
+        </section>
+
     </main>
     <footer>
         <p>Celina Molinaro | 2025</p>

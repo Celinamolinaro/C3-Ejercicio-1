@@ -178,6 +178,8 @@ footer div {
     column-gap: 30px;
     flex-wrap: wrap;
     margin-top: 40px;
+    opacity: 0;
+    animation: fadeInUpContacto 0.8s cubic-bezier(0.4,0,0.2,1) 0.3s forwards;
     
     div p {
         max-width: 550px;
@@ -194,8 +196,7 @@ footer div {
     column-gap: 20px;
     
     opacity: 0;
-    transform: translateX(-10px); 
-    animation: fadeInLeft 0.7s ease-out forwards;
+    animation: fadeInUpContacto 0.8s cubic-bezier(0.4,0,0.2,1) 0.1s forwards;
 }
 
     @keyframes fadeInLeft {
@@ -237,6 +238,8 @@ footer div {
     row-gap: 30px;
     margin-top: 55px;
     margin-bottom: 70px;
+    opacity: 0;
+    animation: fadeInUpContacto 0.8s cubic-bezier(0.4,0,0.2,1) 0.5s forwards;
 }
 
 .tarjetas-sm {
@@ -274,6 +277,8 @@ footer div {
     display: flex;
     flex-direction: column;
     row-gap: 25px;
+    opacity: 0;
+    animation: fadeInUpContacto 0.8s cubic-bezier(0.4,0,0.2,1) 0.7s forwards;
 }
 
 #caja-iconos-skills {
@@ -324,6 +329,8 @@ footer div {
     animation: fadeInGrid 1.1s cubic-bezier(0.4,0,0.2,1) both;
     justify-content: center;
     text-align: center;
+    opacity: 0;
+    animation: fadeInUpContacto 0.8s cubic-bezier(0.4,0,0.2,1) 0.1s forwards;
 }
 
 .titulo-proyectos img {
@@ -472,6 +479,8 @@ footer div {
     animation: fadeInGrid 1.1s cubic-bezier(0.4,0,0.2,1) both;
     justify-content: center;
     text-align: center;
+    opacity: 0;
+    animation: fadeInUpContacto 0.8s cubic-bezier(0.4,0,0.2,1) 0.1s forwards;
 }
 @media (max-width: 1100px) {
     .titulo-proyectos {
@@ -495,6 +504,8 @@ footer div {
     margin: 0 auto;
     padding-bottom: 200px;
     animation: fadeInGrid 1.1s cubic-bezier(0.4,0,0.2,1) both;
+    opacity: 0;
+    animation: fadeInUpContacto 0.8s cubic-bezier(0.4,0,0.2,1) 0.5s forwards;
 }
 
 @keyframes fadeInGrid {
@@ -597,7 +608,7 @@ footer div {
 .contacto-main {
     max-width: 900px;
     margin: 0 auto;
-    padding: 60px 0 0 0;
+    padding: 100px 0 150px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -609,7 +620,8 @@ footer div {
     justify-content: center;
     gap: 18px;
     margin-bottom: 25px;
-
+    opacity: 0;
+    animation: fadeInUpContacto 0.8s cubic-bezier(0.4,0,0.2,1) 0.1s forwards;
 }
 .flor-contacto {
     width: 48px;
@@ -630,12 +642,17 @@ footer div {
     color: #191919;
     margin-bottom: 38px;
     max-width: 650px;
+    line-height: 1.3em;
+    opacity: 0;
+    animation: fadeInUpContacto 0.8s cubic-bezier(0.4,0,0.2,1) 0.4s forwards;
 }
 .form-contacto {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 25px;
+    opacity: 0;
+    animation: fadeInUpContacto 0.8s cubic-bezier(0.4,0,0.2,1) 0.7s forwards;
 }
 .form-row {
     display: flex;
@@ -674,27 +691,7 @@ footer div {
 .form-contacto textarea:focus {
     border: 1.5px solid #a80a44;
 }
-.btn-enviar {
-    margin: 0 auto;
-    margin-top: 10px;
-    padding: 12px 38px;
-    font-family: 'PP-Mori-Semibold', sans-serif;
-    font-size: 1.2em;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-    letter-spacing: 0.01em;
-    background: linear-gradient(90deg, #FF7129, #F8C838, #B7AFDE);
-    background-size: 300% 100%;
-    color: #191919;
-    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
-    transition: background 0.5s, color 0.3s, transform 0.2s;
-}
-.btn-enviar:hover {
-    background: #191919;
-    color: #fff;
-    transform: scale(1.04);
-}
+
 @media (max-width: 700px) {
     .contacto-main {
         padding: 30px 0 0 0;
@@ -710,4 +707,15 @@ footer div {
         flex-direction: column;
         gap: 10px;
     }
+}
+
+@keyframes fadeInUpContacto {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

@@ -323,6 +323,15 @@ footer div {
     padding-left: calc((100vw - 1550px) / 2);
 }
 
+.titulo-proyectos img {
+    width: 55px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 12px;
+    animation: girar 20s linear infinite;
+    transform-origin: center;
+}
+
 .contenedor-video {
     width: 100vw;
     display: flex;
@@ -493,6 +502,9 @@ footer div {
     margin-bottom: 25px;
     overflow: hidden;
     position: relative;
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
 }
 .img-placeholder img {
     width: 100%;

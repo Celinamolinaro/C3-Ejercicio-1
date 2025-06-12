@@ -595,7 +595,7 @@ footer div {
 }
 
 .contacto-main {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 60px 0 0 0;
     display: flex;
@@ -608,7 +608,7 @@ footer div {
     align-items: center;
     justify-content: center;
     gap: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 
 }
 .flor-contacto {
@@ -626,16 +626,16 @@ footer div {
 .contacto-descripcion {
     text-align: center;
     font-family: 'PP-Mori-Extralight', sans-serif;
-    font-size: 1.1em;
+    font-size: 1.3em;
     color: #191919;
     margin-bottom: 38px;
-    max-width: 520px;
+    max-width: 650px;
 }
 .form-contacto {
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 25px;
 }
 .form-row {
     display: flex;
@@ -645,7 +645,7 @@ footer div {
 .form-contacto input[type="email"] {
     flex: 1;
     padding: 10px 18px;
-    border: 1.5px solid #191919;
+    border: 1.8px solid #191919;
     border-radius: 20px;
     font-size: 1em;
     font-family: 'PP-Mori-Regular', sans-serif;
@@ -659,9 +659,9 @@ footer div {
     border: 1.5px solid #a80a44;
 }
 .form-contacto textarea {
-    min-height: 180px;
+    min-height: 290px;
     padding: 14px 18px;
-    border: 1.5px solid #191919;
+    border: 1.8px solid #191919;
     border-radius: 20px;
     font-size: 1em;
     font-family: 'PP-Mori-Regular', sans-serif;

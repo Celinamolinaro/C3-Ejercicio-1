@@ -361,6 +361,18 @@ footer div {
     box-shadow: none;
 }
 
+.contenedor-video video.img-proyectos {
+    width: 95vw;
+    max-width: 1200px;
+    height: 700px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 32px auto;
+    border-radius: 32px;
+    background: #d7d7d7;
+    box-shadow: 4px;
+}
+
 .subtexto-proyectos {
     width: 100vw;
     text-align: center;
